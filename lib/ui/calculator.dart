@@ -87,10 +87,10 @@ class _CalculatorState extends State<Calculator> {
     return new Scaffold(
       appBar: new AppBar(
         title: new Text("CALCULATOR"),
-        backgroundColor: Colors.green.shade200,
+        backgroundColor: Color(0xFF1976d2),
         elevation: 0.2,
       ),
-      backgroundColor: Colors.green.shade200,
+      backgroundColor: Colors.grey.shade400,
       body: new Container(
         child: Column(
           children: <Widget>[
